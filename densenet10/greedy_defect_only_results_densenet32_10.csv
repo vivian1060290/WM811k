@@ -1,0 +1,11 @@
+﻿round,candidate,candidate_op,pipeline,n_augmentations,mean_macro_f1,std_macro_f1,scores,gain,selected,decision
+0,(baseline),(baseline),,0,0.58,0.05,0.60|0.61|0.52,0.0,0,baseline
+1,dilation,dilation,dilation,1,0.56,0.03,0.55|0.59|0.54,-0.02,0,candidate
+1,affine,affine,affine,1,0.6,0.02,0.62|0.59|0.58,0.02,0,candidate
+1,noise,noise,noise,1,0.59,0.03,0.58|0.57|0.62,0.01,0,candidate
+1,erase,erase,erase,1,0.61,0.01,0.60|0.61|0.61,0.03,1,selected
+1,sharpen,sharpen,sharpen,1,0.58,0.01,0.57|0.59|0.57,0.0,0,candidate
+2,dilation,dilation,erase|dilation,2,0.58,0.0,0.58|0.58|0.58,-0.03,0,candidate
+2,affine,affine,erase|affine,2,0.58,0.01,0.57|0.59|0.60,-0.02,0,stop_not_enough_gain
+2,noise,noise,erase|noise,2,0.58,0.01,0.58|0.60|0.58,-0.02,0,candidate
+2,sharpen,sharpen,erase|sharpen,2,0.57,0.04,0.59|0.59|0.53,-0.04,0,candidate

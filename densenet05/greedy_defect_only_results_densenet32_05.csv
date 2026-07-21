@@ -1,0 +1,9 @@
+﻿round,rank,candidate,candidate_op,pipeline,n_augmentations,mean_macro_f1,std_macro_f1,scores,acc_mean,acc_std,loss_mean,loss_std,gain,selected,decision
+0,,(baseline),(baseline),,0,0.73,0.03,0.77|0.71|0.72,0.74,0.04,0.69,0.09,0.0,0,baseline
+1,1,erosion,erosion,erosion,1,0.74,0.01,0.75|0.74|0.75,0.73,0.01,0.72,0.03,0.01,1,selected_top1
+1,2,noise,noise,noise,1,0.74,0.04,0.76|0.69|0.76,0.73,0.05,0.72,0.08,0.0,0,ranked_candidate
+1,3,erase,erase,erase,1,0.73,0.04,0.77|0.71|0.71,0.73,0.03,0.72,0.08,-0.0,0,ranked_candidate
+1,4,sharpen,sharpen,sharpen,1,0.73,0.02,0.75|0.71|0.71,0.73,0.02,0.71,0.06,-0.01,0,ranked_candidate
+1,5,dilation,dilation,dilation,1,0.71,0.02,0.73|0.71|0.68,0.69,0.02,0.79,0.1,-0.03,0,ranked_candidate
+2,2,noise,noise,erosion|noise,2,0.69,0.01,0.67|0.69|0.70,0.72,0.02,0.76,0.02,-0.06,0,stop_not_improved
+final,,(final),(final),erosion,1,0.74,0.0,0.74|0.74|0.74,0.72,0.02,0.72,0.03,,1,final
