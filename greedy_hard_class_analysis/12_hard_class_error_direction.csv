@@ -1,0 +1,13 @@
+﻿model,true_class,support,correct_count,top_misclassified_as,top_misclassified_count,top_misclassified_rate
+VGG11-BN,Donut,83,77,Loc,4,0.0482
+VGG11-BN,Loc,495,376,Edge-loc,51,0.103
+VGG11-BN,Scratch,141,122,Edge-loc,11,0.078
+DenseNet121,Donut,83,67,Random,7,0.0843
+DenseNet121,Loc,495,399,Edge-loc,53,0.1071
+DenseNet121,Scratch,141,118,Loc,14,0.0993
+Swin Transformer,Donut,83,76,Edge-loc,2,0.0241
+Swin Transformer,Loc,495,421,Edge-loc,30,0.0606
+Swin Transformer,Scratch,141,133,Loc,7,0.0496
+Greedy Ensemble,Donut,83,76,Edge-loc,2,0.0241
+Greedy Ensemble,Loc,495,421,Edge-loc,30,0.0606
+Greedy Ensemble,Scratch,141,133,Loc,7,0.0496

@@ -1,0 +1,28 @@
+﻿model,true_class,support,correct_count,top_misclassified_as,top_misclassified_count,top_misclassified_rate
+VGG11-BN,None,0,0,無主要誤判,0,0.0
+VGG11-BN,Center,620,601,Loc,9,0.0145
+VGG11-BN,Donut,83,77,Loc,4,0.0482
+VGG11-BN,Edge-loc,739,649,Edge-ring,39,0.0528
+VGG11-BN,Edge-ring,1448,1429,Edge-loc,15,0.0104
+VGG11-BN,Loc,495,376,Edge-loc,51,0.103
+VGG11-BN,Random,130,122,Edge-loc,3,0.0231
+VGG11-BN,Scratch,141,122,Edge-loc,11,0.078
+VGG11-BN,Near-Full,22,21,Edge-loc,1,0.0455
+DenseNet121,None,0,0,無主要誤判,0,0.0
+DenseNet121,Center,620,610,Loc,4,0.0065
+DenseNet121,Donut,83,67,Random,7,0.0843
+DenseNet121,Edge-loc,739,680,Loc,25,0.0338
+DenseNet121,Edge-ring,1448,1414,Edge-loc,27,0.0186
+DenseNet121,Loc,495,399,Edge-loc,53,0.1071
+DenseNet121,Random,130,124,Edge-loc,2,0.0154
+DenseNet121,Scratch,141,118,Loc,14,0.0993
+DenseNet121,Near-Full,22,22,無主要誤判,0,0.0
+Swin Transformer,None,0,0,無主要誤判,0,0.0
+Swin Transformer,Center,620,594,Loc,15,0.0242
+Swin Transformer,Donut,83,76,Edge-loc,2,0.0241
+Swin Transformer,Edge-loc,739,685,Loc,32,0.0433
+Swin Transformer,Edge-ring,1448,1414,Edge-loc,29,0.02
+Swin Transformer,Loc,495,421,Edge-loc,30,0.0606
+Swin Transformer,Random,130,124,Edge-loc,2,0.0154
+Swin Transformer,Scratch,141,133,Loc,7,0.0496
+Swin Transformer,Near-Full,22,22,無主要誤判,0,0.0

@@ -1,0 +1,10 @@
+﻿model,class,precision,recall,f1_score,support
+Greedy Ensemble,None,0.0,0.0,0.0,0
+Greedy Ensemble,Center,0.977,0.9581,0.9674,620
+Greedy Ensemble,Donut,0.8172,0.9157,0.8636,83
+Greedy Ensemble,Edge-loc,0.9121,0.9269,0.9195,739
+Greedy Ensemble,Edge-ring,0.9923,0.9765,0.9843,1448
+Greedy Ensemble,Loc,0.8808,0.8505,0.8654,495
+Greedy Ensemble,Random,0.9394,0.9538,0.9466,130
+Greedy Ensemble,Scratch,0.8061,0.9433,0.8693,141
+Greedy Ensemble,Near-Full,0.8462,1.0,0.9167,22

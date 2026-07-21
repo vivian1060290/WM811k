@@ -1,0 +1,4 @@
+﻿round,candidate_model,trial_model_set,hard_classes,hard_class_macro_f1,previous_best_hard_class_macro_f1,gain,hard_class_support,selected,decision
+1,Swin Transformer,Swin Transformer,Donut + Loc + Scratch,0.8996,,0.0,719,True,keep
+2,DenseNet121,Swin Transformer + DenseNet121,Donut + Loc + Scratch,0.8996,0.8996,0.0,719,True,keep
+3,VGG11-BN,Swin Transformer + DenseNet121 + VGG11-BN,Donut + Loc + Scratch,0.8979,0.8996,-0.0017,719,False,remove_and_stop

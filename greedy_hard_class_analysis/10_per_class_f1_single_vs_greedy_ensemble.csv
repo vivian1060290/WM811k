@@ -1,0 +1,10 @@
+﻿class,DenseNet121,Greedy Ensemble,Swin Transformer,VGG11-BN,best_single_model,best_single_f1,ensemble_minus_best_single,ensemble_improved
+None,0.0,0.0,0.0,0.0,VGG11-BN,0.0,0.0,持平
+Center,0.9644,0.9674,0.9674,0.9655,Swin Transformer,0.9674,0.0,持平
+Donut,0.8272,0.8636,0.8636,0.8902,VGG11-BN,0.8902,-0.0266,否
+Edge-loc,0.9019,0.9195,0.9195,0.8836,Swin Transformer,0.9195,0.0,持平
+Edge-ring,0.9813,0.9843,0.9843,0.9798,Swin Transformer,0.9843,0.0,持平
+Loc,0.8444,0.8654,0.8654,0.813,Swin Transformer,0.8654,0.0,持平
+Random,0.8826,0.9466,0.9466,0.9071,Swin Transformer,0.9466,0.0,持平
+Scratch,0.8906,0.8693,0.8693,0.7746,DenseNet121,0.8906,-0.0213,否
+Near-Full,0.9167,0.9167,0.9167,0.9767,VGG11-BN,0.9767,-0.06,否

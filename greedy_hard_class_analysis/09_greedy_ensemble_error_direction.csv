@@ -1,0 +1,10 @@
+﻿model,true_class,support,correct_count,top_misclassified_as,top_misclassified_count,top_misclassified_rate
+Greedy Ensemble,None,0,0,無主要誤判,0,0.0
+Greedy Ensemble,Center,620,594,Loc,15,0.0242
+Greedy Ensemble,Donut,83,76,Edge-loc,2,0.0241
+Greedy Ensemble,Edge-loc,739,685,Loc,32,0.0433
+Greedy Ensemble,Edge-ring,1448,1414,Edge-loc,29,0.02
+Greedy Ensemble,Loc,495,421,Edge-loc,30,0.0606
+Greedy Ensemble,Random,130,124,Edge-loc,2,0.0154
+Greedy Ensemble,Scratch,141,133,Loc,7,0.0496
+Greedy Ensemble,Near-Full,22,22,無主要誤判,0,0.0

@@ -1,0 +1,4 @@
+﻿rank_by_low_f1,model,class,precision,recall,f1_score,support,first_model
+1,Swin Transformer,Donut,0.8172,0.9157,0.8636,83,Swin Transformer
+2,Swin Transformer,Loc,0.8808,0.8505,0.8654,495,Swin Transformer
+3,Swin Transformer,Scratch,0.8061,0.9433,0.8693,141,Swin Transformer

@@ -1,0 +1,4 @@
+﻿model,accuracy,macro_f1,weighted_f1,support
+VGG11-BN,0.9236,0.7989,0.9231,3678
+DenseNet121,0.9337,0.801,0.9332,3678
+Swin Transformer,0.9432,0.8147,0.9436,3678

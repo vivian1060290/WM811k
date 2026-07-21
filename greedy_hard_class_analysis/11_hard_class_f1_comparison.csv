@@ -1,0 +1,4 @@
+﻿class,DenseNet121,Greedy Ensemble,Swin Transformer,VGG11-BN,best_single_model,best_single_f1,ensemble_minus_best_single,ensemble_improved
+Donut,0.8272,0.8636,0.8636,0.8902,VGG11-BN,0.8902,-0.0266,否
+Loc,0.8444,0.8654,0.8654,0.813,Swin Transformer,0.8654,0.0,持平
+Scratch,0.8906,0.8693,0.8693,0.7746,DenseNet121,0.8906,-0.0213,否

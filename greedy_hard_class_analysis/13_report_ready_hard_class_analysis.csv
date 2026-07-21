@@ -1,0 +1,4 @@
+﻿class,first_model_f1,support,greedy_ensemble_f1,first_model_top_error_class,first_model_top_error_count,first_model_top_error_rate,ensemble_top_error_class,ensemble_top_error_count,ensemble_top_error_rate,f1_gain,improved
+Donut,0.8636,83,0.8636,Edge-loc,2,0.0241,Edge-loc,2,0.0241,0.0,持平
+Loc,0.8654,495,0.8654,Edge-loc,30,0.0606,Edge-loc,30,0.0606,0.0,持平
+Scratch,0.8693,141,0.8693,Loc,7,0.0496,Loc,7,0.0496,0.0,持平

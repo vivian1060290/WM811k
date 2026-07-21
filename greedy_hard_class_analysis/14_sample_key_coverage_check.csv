@@ -1,0 +1,4 @@
+﻿model,alignment_key_used,unique_samples,common_samples_used,samples_not_used_because_not_common
+VGG11-BN,key_relpath,3705,3678,27
+DenseNet121,key_relpath,3755,3678,77
+Swin Transformer,key_relpath,3792,3678,114

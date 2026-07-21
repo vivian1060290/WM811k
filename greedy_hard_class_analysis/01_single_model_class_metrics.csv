@@ -1,0 +1,28 @@
+﻿model,class,precision,recall,f1_score,support
+VGG11-BN,None,0.0,0.0,0.0,0
+VGG11-BN,Center,0.9616,0.9694,0.9655,620
+VGG11-BN,Donut,0.8556,0.9277,0.8902,83
+VGG11-BN,Edge-loc,0.889,0.8782,0.8836,739
+VGG11-BN,Edge-ring,0.9728,0.9869,0.9798,1448
+VGG11-BN,Loc,0.8744,0.7596,0.813,495
+VGG11-BN,Random,0.8777,0.9385,0.9071,130
+VGG11-BN,Scratch,0.7011,0.8652,0.7746,141
+VGG11-BN,Near-Full,1.0,0.9545,0.9767,22
+DenseNet121,None,0.0,0.0,0.0,0
+DenseNet121,Center,0.9457,0.9839,0.9644,620
+DenseNet121,Donut,0.8481,0.8072,0.8272,83
+DenseNet121,Edge-loc,0.8843,0.9202,0.9019,739
+DenseNet121,Edge-ring,0.9861,0.9765,0.9813,1448
+DenseNet121,Loc,0.8867,0.8061,0.8444,495
+DenseNet121,Random,0.8212,0.9538,0.8826,130
+DenseNet121,Scratch,0.9516,0.8369,0.8906,141
+DenseNet121,Near-Full,0.8462,1.0,0.9167,22
+Swin Transformer,None,0.0,0.0,0.0,0
+Swin Transformer,Center,0.977,0.9581,0.9674,620
+Swin Transformer,Donut,0.8172,0.9157,0.8636,83
+Swin Transformer,Edge-loc,0.9121,0.9269,0.9195,739
+Swin Transformer,Edge-ring,0.9923,0.9765,0.9843,1448
+Swin Transformer,Loc,0.8808,0.8505,0.8654,495
+Swin Transformer,Random,0.9394,0.9538,0.9466,130
+Swin Transformer,Scratch,0.8061,0.9433,0.8693,141
+Swin Transformer,Near-Full,0.8462,1.0,0.9167,22
