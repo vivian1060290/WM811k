@@ -1,0 +1,11 @@
+﻿stage,elapsed_sec,num_samples,batch_size,samples_per_sec,ms_per_sample,total_params,trainable_params,note
+Build sample lists,12.07,172950.0,,14328.06,0.07,,,Read file paths and class labels
+Stage1 train/load total,1.39,147007.0,64.0,105902.4,0.01,22137345.0,22137345.0,Includes loading existing weights or training from scratch
+Compute Stage2 class weights,0.01,121064.0,,14673179.32,0.0,,,Compute defect-only class weights
+Greedy augmentation search total,3040.32,,,,,,,"Selected pipeline=['sharpen', 'noise']"
+Stage2 train/load total,1.4,147007.0,64.0,104874.56,0.01,22138248.0,22138248.0,Includes loading existing weights or training from scratch
+Stage1 test inference,44.9,25943.0,64.0,577.84,1.73,,,None vs Defect probability prediction
+Stage2 test inference,44.03,25943.0,64.0,589.25,1.7,,,8-class defect softmax prediction for all test samples
+Total two-stage test inference,88.92,25943.0,64.0,291.74,3.43,,,Stage1 inference + Stage2 inference
+Test inference + evaluation total,91.56,25943.0,64.0,283.34,3.53,,,"Includes prediction, metrics, confusion matrices, and CSV output"
+Full program total,3148.32,172950.0,64.0,54.93,18.2,,,End-to-end wall-clock time

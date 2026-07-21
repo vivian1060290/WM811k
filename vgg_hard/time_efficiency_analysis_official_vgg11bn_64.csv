@@ -1,0 +1,29 @@
+﻿stage,elapsed_sec,num_samples,batch_size,samples_per_sec,ms_per_sample,total_params,trainable_params,note
+Build sample lists,0.7,9975.0,,14289.0,0.07,,,Read file paths and class labels
+Stage1 train epoch 01,18.75,8478.0,64.0,452.1,2.21,,,"train_loss=0.0000, train_acc=0.4722, val_loss=0.0000, val_acc=0.9953"
+Stage1 train epoch 02,17.14,8478.0,64.0,494.6,2.02,,,"train_loss=0.0000, train_acc=0.5544, val_loss=0.0000, val_acc=1.0000"
+Stage1 train epoch 03,17.52,8478.0,64.0,484.01,2.07,,,"train_loss=0.0000, train_acc=0.6747, val_loss=0.0000, val_acc=1.0000"
+Stage1 train epoch 04,17.66,8478.0,64.0,480.11,2.08,,,"train_loss=0.0000, train_acc=0.7211, val_loss=0.0000, val_acc=1.0000"
+Stage1 train epoch 05,17.5,8478.0,64.0,484.52,2.06,,,"train_loss=0.0000, train_acc=0.7176, val_loss=0.0000, val_acc=1.0000"
+Stage1 train/load total,90.08,8478.0,64.0,94.12,10.62,22137345.0,22137345.0,Includes loading existing weights or training from scratch
+Compute Stage2 class weights,0.0,6982.0,,2641994.89,0.0,,,Compute defect-only class weights
+Greedy augmentation search total,2133.57,,,,,,,Selected pipeline=['affine']
+Stage2 train epoch 01,17.61,8478.0,64.0,481.32,2.08,,,"train_loss=0.9861, train_acc=0.5093, val_loss=0.7169, val_acc=0.6424"
+Stage2 train epoch 02,17.52,8478.0,64.0,483.92,2.07,,,"train_loss=0.6598, train_acc=0.7302, val_loss=0.4309, val_acc=0.8182"
+Stage2 train epoch 03,17.49,8478.0,64.0,484.63,2.06,,,"train_loss=0.4859, train_acc=0.8112, val_loss=0.3734, val_acc=0.8463"
+Stage2 train epoch 04,17.58,8478.0,64.0,482.27,2.07,,,"train_loss=0.3491, train_acc=0.8681, val_loss=0.3831, val_acc=0.8489"
+Stage2 train epoch 05,17.55,8478.0,64.0,483.0,2.07,,,"train_loss=0.2672, train_acc=0.9023, val_loss=0.5550, val_acc=0.7941"
+Stage2 train epoch 06,17.57,8478.0,64.0,482.66,2.07,,,"train_loss=0.1665, train_acc=0.9371, val_loss=0.3411, val_acc=0.8884"
+Stage2 train epoch 07,17.58,8478.0,64.0,482.3,2.07,,,"train_loss=0.1148, train_acc=0.9565, val_loss=0.6488, val_acc=0.8489"
+Stage2 train epoch 08,17.56,8478.0,64.0,482.87,2.07,,,"train_loss=0.1125, train_acc=0.9629, val_loss=0.4853, val_acc=0.8570"
+Stage2 train epoch 09,19.36,8478.0,64.0,437.88,2.28,,,"train_loss=0.0916, train_acc=0.9662, val_loss=0.6307, val_acc=0.8336"
+Stage2 train epoch 10,18.29,8478.0,64.0,463.48,2.16,,,"train_loss=0.0255, train_acc=0.9918, val_loss=0.4463, val_acc=0.8924"
+Stage2 train epoch 11,17.67,8478.0,64.0,479.81,2.08,,,"train_loss=0.0154, train_acc=0.9956, val_loss=0.4818, val_acc=0.8937"
+Stage2 train epoch 12,18.01,8478.0,64.0,470.71,2.12,,,"train_loss=0.0561, train_acc=0.9797, val_loss=0.4601, val_acc=0.8910"
+Stage2 train epoch 13,17.8,8478.0,64.0,476.22,2.1,,,"train_loss=0.0095, train_acc=0.9980, val_loss=0.4713, val_acc=0.8944"
+Stage2 train/load total,233.62,8478.0,64.0,36.29,27.56,22137603.0,22137603.0,Includes loading existing weights or training from scratch
+Stage1 test inference,2.77,1497.0,64.0,540.24,1.85,,,None vs Defect probability prediction
+Stage2 test inference,1.04,1497.0,64.0,1439.41,0.69,,,8-class defect softmax prediction for all test samples
+Total two-stage test inference,3.81,1497.0,64.0,392.81,2.55,,,Stage1 inference + Stage2 inference
+Test inference + evaluation total,5.97,1497.0,64.0,250.66,3.99,,,"Includes prediction, metrics, confusion matrices, and CSV output"
+Full program total,2465.9,9975.0,64.0,4.05,247.21,,,End-to-end wall-clock time
