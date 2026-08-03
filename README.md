@@ -46,8 +46,7 @@
 
 ## 📁 系統流程與環境配置 (Architecture & Environment)
 
-### 系統流程步驟
-![流程圖]("image/流程圖.png")
+<img width="1087" height="1447" alt="流程圖" src="https://github.com/vivian1060290/WM811k/blob/main/image/flow_diagram.png" />
 
 ### 研究環境設定
 - **硬體**：Intel(R) Core(TM) i7-10700 CPU / NVIDIA GeForce RTX 4060 GPU / Memory 64GB
