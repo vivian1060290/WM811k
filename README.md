@@ -47,7 +47,7 @@
 ## 📁 系統流程與環境配置 (Architecture & Environment)
 
 ### 系統流程步驟
-![流程圖]("WM811k\image\流程圖.png")
+![流程圖]("image/流程圖.png")
 
 ### 研究環境設定
 - **硬體**：Intel(R) Core(TM) i7-10700 CPU / NVIDIA GeForce RTX 4060 GPU / Memory 64GB
