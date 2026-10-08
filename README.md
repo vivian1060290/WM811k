@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 研究核心方法 (Research Methods)
+## 研究核心方法 (Research Methods)
 
 依據專題報告內容，系統之核心架構與處理策略如下：
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 📊 實驗結果與數據分析 (Experimental Results)
+## 實驗結果與數據分析 (Experimental Results)
 
 本研究評估並比較了 VGG11-BN、DenseNet121 與 Swin Transformer 三種單一模型，並將最佳結果導入集成學習架構：
 
@@ -29,9 +29,9 @@
 | **VGG11-BN** | Batch Size = 64 | **0.83** | 具備最佳推論時間（Two-stage 總時間為 91.96 秒）。 |
 | **DenseNet121** | Loss Weight Strength = 0.5 | **0.82** | 適度縮小類別權重差異，能於多數與少數類別間取得較穩定分類效果。 |
 | **Swin Transformer** | Learning Rate = 5e-5 | **0.82** | 載入 ImageNet 預訓練權重，輸入前將影像 resize 至 224×224 進行微調。 |
-| 🏆 **集成學習** | **三模型多數決投票** | ⭐ **0.89** | **經 greedy-based 方法整合，多模型間具互補性，顯著提升整體分類效果。** |
+|  **集成學習** | **三模型多數決投票** |  **0.89** | **經 greedy-based 方法整合，多模型間具互補性，顯著提升整體分類效果。** |
 
-### 💡 較差類別子集之改善分析
+###  較差類別子集之改善分析
 針對 VGG11-BN 分類表現相對較差的 **Loc（局部區域缺陷）** 與 **Scratch（線狀或刮痕分布）** 進行測試子集評估：
 - **Loc 缺陷**：F1-score 從單一模型的 0.86 經由 greedy Stage 2 集成模型後提升至 **0.91**。
 - **Scratch 缺陷**：F1-score 從單一模型的 0.76 經由 greedy Stage 2 集成模型後提升至 **0.90**。
@@ -39,7 +39,7 @@
 
 ---
 
-## 📁 系統流程與環境配置 (Architecture & Environment)
+##  系統流程與環境配置 (Architecture & Environment)
 
 <img width="1087" height="1447" alt="流程圖" src="https://github.com/vivian1060290/WM811k/blob/main/image/flow_diagram.png" />
 
@@ -49,7 +49,7 @@
 
 ---
 
-## 👥 組員工作分配與貢獻度 (Contributions)
+##  組員工作分配與貢獻度 (Contributions)
 
 根據專題報告附錄之真實組員工作分配，本專案各項目之貢獻度詳列如下：
 
